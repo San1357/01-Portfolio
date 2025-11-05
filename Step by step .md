@@ -1,3 +1,19 @@
+step 0: git init -Project git ke control me aa jayega (hidden .git create ho jayega)
+
+local Project aur Github ke bich connection bn jayega
+
+step 0.1: create Repo on github copy the link :
+git remote add origin https://github.com/San1357/01-Portfolio.git
+
+step 0.2:
+
+First Push to GitHub
+
+git add .
+git commit -m "Initial commit"
+git branch -M main # optional: renames branch to main
+git push -u origin main
+
 step 1: Add Boilerplate
 
 <!DOCTYPE html>
