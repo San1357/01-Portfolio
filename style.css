@@ -151,3 +151,57 @@ section {
 
 }
 
+/* ===== Skills ===== */
+
+#skills{
+    background: #ffffff;
+    padding: 40px 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+
+}
+
+#skills h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+
+
+}
+
+#skills ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0;
+
+
+
+}
+
+/* Individual skill card */
+
+#skills li{
+    background: #eaf3ff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #c8e0ff;
+    transition: 0.25s;
+
+
+}
+
+
+
+#skills li:hover{
+    background: #007bff;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+
+}
+
+

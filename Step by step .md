@@ -204,4 +204,6 @@ step 5 :Global Sections spacing
 
 step 6: style about section
 
-step 7:
+step 7: skills styled
+
+step 8:
