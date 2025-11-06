@@ -201,3 +201,7 @@ step3: style Header + Nav bar
 step 4:style the hero section
 
 step 5 :Global Sections spacing
+
+step 6: style about section
+
+step 7:

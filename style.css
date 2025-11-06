@@ -123,3 +123,31 @@ section {
   width: 90%;
   margin: 40px auto;
 }
+
+/* ===== About ===== */
+
+#about{
+    background: #ffffff;
+    padding: 40px 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+}
+
+
+#about h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 28px;
+
+}
+
+#about p{
+
+    font-size: 17px;
+    color: #444;
+    margin-bottom: 12px;
+    text-align: center;
+
+
+}
+
