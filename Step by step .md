@@ -206,4 +206,6 @@ step 6: style about section
 
 step 7: skills styled
 
-step 8:
+step 8: Projects section styled
+
+step 9:Style Contact Form
