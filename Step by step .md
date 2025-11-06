@@ -199,3 +199,5 @@ step2: CSS reset + Basic theme
 step3: style Header + Nav bar
 
 step 4:style the hero section
+
+step 5 :Global Sections spacing
