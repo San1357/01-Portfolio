@@ -318,3 +318,17 @@ section {
 #contact button:hover {
   background: #005fcc;
 }
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  color: #555;
+  font-size: 14px;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}

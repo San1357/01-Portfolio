@@ -209,3 +209,7 @@ step 7: skills styled
 step 8: Projects section styled
 
 step 9:Style Contact Form
+
+step10: footer styled
+
+step11: Portfolio styled
