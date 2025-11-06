@@ -1,0 +1,58 @@
+/* ===== CSS Reset ===== */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    line-height:1.6;
+    background-color: #f5f5f5;
+    color:#222;
+    
+}
+
+/* ===== Header / Navigation ===== */
+header{
+    background-color: #ffffff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+
+}
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+nav ul li a:hover{
+    color: #007bff;
+
+}
+

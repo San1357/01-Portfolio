@@ -187,3 +187,15 @@ Title: “Aayush Gupta - Portfolio”
 Description: “Aspiring Full Stack Developer learning through real-world projects.”
 
 Isse log click karne me confident feel karte hain.
+
+---
+
+Styling (CSS):
+
+step1: Link Css file to html file.
+
+step2: CSS reset + Basic theme
+
+step3: style Header + Nav bar
+
+step 4:style the hero section
