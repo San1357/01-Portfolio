@@ -213,3 +213,44 @@ step 9:Style Contact Form
 step10: footer styled
 
 step11: Portfolio styled
+
+## Flexbox Implementation
+
+Apply Flexbox to Portfolio Page
+
+Navbar alignment improvements
+
+Hero text + buttons alignment
+
+Skills cards alignment
+
+Projects cards layout
+
+Contact layout improvement
+
+3️⃣ Media Queries to make Portfolio fully responsive
+
+Mobile
+
+Tablet
+
+Laptop
+
+After Portfolio is responsive → then we repeat for Blog & Landing.
+
+##
+
+Navbar Logo left, menu right
+Hero Center text/buttons
+Skills Multiple cards in a line
+Projects 3 or 4 cards per row
+Contact Form Inputs stacked properly
+Footer Equal spacing horizontally
+
+STEP 1: Navbar using Flexbox
+Goal :
+Logo left
+
+Menu right
+
+Perfect vertical alignment

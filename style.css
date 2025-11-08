@@ -37,19 +37,28 @@ nav h1{
     font-weight: bold;
 
 }
-nav ul{
-    list-style: none;
-    display: flex;
-    gap: 20px;
 
+  
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px; /* increased for cleaner spacing */
+  align-items: center; /* flexbox */
 }
+
+
 nav ul li a{
     text-decoration: none;
     color: #222;
     font-weight: 500;
     transition: 0.3s;
+    cursor: pointer;/* -- flexbox--*/
+
 
 }
+
+
 
 nav ul li a:hover{
     color: #007bff;
@@ -66,9 +75,25 @@ nav ul li a:hover{
     border-radius: 12px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.08);
     text-align: center;
+    display: flex;   /* ---- Hero after flexbox---*/
+    flex-direction: column;       /* stack heading, text, buttons */
+    justify-content: center;      /* vertical centering */
+    align-items: center;          /* horizontal centering */
+    gap: 8px;                     /* space between elements */
+    min-height: 52vh;  
 
 
 }
+
+
+#hero .cta {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;              /* wrap buttons on small screens */
+  justify-content: center;
+}
+
+/** ---hero flexbox end here---*/
 
 #hero h2{
     font-size: 42px;
@@ -190,6 +215,8 @@ section {
     font-size: 16px;
     border: 1px solid #c8e0ff;
     transition: 0.25s;
+    flex: 0 1 160px;      /* basis 160px, don’t grow, can shrink */
+    text-align: center;
 
 
 }
@@ -259,6 +286,19 @@ section {
 #projects article a:hover {
   background: #005fcc;
 }
+/* after flexbox */
+
+#projects .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 
 
 /* ===== Contact ===== */
@@ -331,4 +371,24 @@ footer {
 /* Smooth scroll */
 html {
   scroll-behavior: smooth;
+}
+
+/* Small screens (<= 600px) */
+@media (max-width: 600px) {
+  nav { width: 94%; }
+  #hero { margin: 30px auto; padding: 34px 16px; min-height: 44vh; }
+  #hero h2 { font-size: 30px; }
+  section { width: 94%; margin: 24px auto; }
+}
+
+/* Tablets (601px–900px) */
+@media (min-width: 601px) and (max-width: 900px) {
+  nav { width: 92%; }
+  #hero h2 { font-size: 36px; }
+  section { width: 92%; }
+}
+
+/* Large screens (>= 1200px) – expand max width a bit */
+@media (min-width: 1200px) {
+  nav, section, #hero { width: 80%; margin-left: auto; margin-right: auto; }
 }
